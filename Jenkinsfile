@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         PRIMARY_REGION   = "ap-south-1"
-        SECONDARY_REGION = "us-east-1"
-        ACCOUNT_ID       = "YOUR_AWS_ACCOUNT_ID"
+        SECONDARY_REGION = "ap-southeast-1"
+        ACCOUNT_ID       = "719146259429"
         REPO_NAME        = "logicworks-devops-api"
         PRIMARY_CLUSTER  = "logicworks-devops-primary-cluster"
         SECONDARY_CLUSTER= "logicworks-devops-secondary-cluster"
@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Source Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/logicworks-devops.git'
+                git branch: 'main', url: 'https://github.com/ImRsrivastava/logicworks-devops.git'
             }
         }
 
