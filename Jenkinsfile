@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Source Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ImRsrivastava/logicworks-devops.git'
+                git branch: 'staging', url: 'https://github.com/ImRsrivastava/logicworks-devops.git'
             }
         }
 
