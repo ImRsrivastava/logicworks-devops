@@ -4,7 +4,7 @@ pipeline {
     environment {
         PRIMARY_REGION   = "ap-south-1"
         SECONDARY_REGION = "ap-southeast-1"
-        ACCOUNT_ID       = "719146259429"
+        ACCOUNT_ID       = "71xxxxxxxxxx"
         REPO_NAME        = "logicworks-devops-api"
         PRIMARY_CLUSTER  = "logicworks-devops-primary-cluster"
         SECONDARY_CLUSTER= "logicworks-devops-secondary-cluster"
